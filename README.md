@@ -24,7 +24,7 @@ This is the generator I use for my modules. It uses [JavaScript Standard Style](
 ## Install
 
 ```sh
-$ npm install --global yo generator-nm
+$ npm install --global yo generator-dup
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ $ npm install --global yo generator-nm
 With [yo](https://github.com/yeoman/yo):
 
 ```sh
-$ yo nm
+$ yo dup
 ```
 
 ## Contribute

@@ -6,8 +6,7 @@
   "main": "app/index.js",
   "scripts": {
     "lint": "standard --verbose | snazzy",
-    "lint:fix": "standard --fix --verbose | snazzy",
-    "test": "standard && mocha"
+    "lint:fix": "standard --fix --verbose | snazzy"
   },
   "files": [
     "app"
@@ -40,7 +39,6 @@
     "yosay": "^1.2.1"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
     "snazzy": "^5.0.0",
     "standard": "^8.6.0"
   },

@@ -13,23 +13,24 @@
     "name": "<%= name %>",
     "email": "<%= email %>",
     "url": "<%= humanizedWebsite %>"
-  },<% if (cli) { %>
-  "bin": "cli.js",<% } %>
+  },
+  <% if (cli) { %>
+  "bin": "cli.js",
+  <% } %>
   "scripts": {
-    "start": "node .",
-  	"lint": "standard",
-    "test": "standard && mocha",
-	"readme": "standard-readme"
+  	"lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix --verbose | snazzy",
+    "test": "standard && mocha"
   },
   "keywords": [
-	<% if (cli) { %>
-    "cli"<% } %>
+  <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
+  "<%= moduleName %>"
   ],
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "standard": "^8.6.0",
-	"standard-readme": "^1.0.24"
+    "snazzy": "^5.0.0",
+    "standard": "^8.6.0"
   }
 }

@@ -1,9 +1,45 @@
-# WIP - Come back later :smile:
+# generator-dup
+
+ 
+
+![demo](demo.gif)
+
+
+
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Build Status](https://travis-ci.org/tiaanduplessis/generator-dup.svg?branch=master)](https://travis-ci.org/tiaanduplessis/generator-dup)
 
-## Contributing
+> Scaffold out a modest node module
 
-All Contributions are welcome! Please open up an issue if you would like to help out. :smile:
+This is the generator I use for my modules. It uses [JavaScript Standard Style](https://github.com/feross/standard) for linting, [Mocha](http://mochajs.org/) as a test framework and [Chai](http://chaijs.com/) as a assertion library.
+
+## Table of Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [License](#license)
+
+## Install
+
+```sh
+$ npm install --global yo generator-nm
+```
+
+## Usage
+
+With [yo](https://github.com/yeoman/yo):
+
+```sh
+$ yo nm
+```
+
+## Contribute
+
+PRs accepted.
+
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 

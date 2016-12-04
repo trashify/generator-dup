@@ -1,0 +1,35 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "1.0.0",
+  "description": "<%= moduleDescription %>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
+  },
+  "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>",
+  "bugs": "https://github.com/<%= githubUsername %>/<%= moduleName %>/issues",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= humanizedWebsite %>"
+  },<% if (cli) { %>
+  "bin": "cli.js",<% } %>
+  "scripts": {
+    "start": "node .",
+  	"lint": "standard",
+    "test": "standard && mocha",
+	"readme": "standard-readme"
+  },
+  "keywords": [
+	<% if (cli) { %>
+    "cli"<% } %>
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0",
+	"standard-readme": "^1.0.24"
+  }
+}

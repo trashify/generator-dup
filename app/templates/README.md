@@ -1,6 +1,6 @@
 # <%= repoName %> 
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-[![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= repoName %>.svg?branch=master)]
+[![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= repoName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= repoName %>)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 TODO: Put more badges here.
@@ -14,9 +14,7 @@ TODO: Fill out this long description.
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
-<% if (cli) { %>
-- [CLI](#cli)
-<% } %>
+<% if (cli) { %>- [CLI](#cli)<% } %>
 - [Contribute](#contribute)
 - [License](#license)
 

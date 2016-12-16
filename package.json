@@ -1,6 +1,6 @@
 {
   "name": "generator-dup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scaffold out a modest node module",
   "homepage": "https://github.com/tiaanduplessis/generator-dup",
   "main": "app/index.js",

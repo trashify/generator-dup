@@ -20,7 +20,8 @@
   "scripts": {
   	"lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix --verbose | snazzy",
-    "test": "standard && mocha"
+    "test": "standard && mocha",
+    "watch": "chokidar '**/*' -c 'npm test'"
   },
   "keywords": [
   <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
@@ -29,6 +30,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
+    "chokidar-cli": "^1.2.0",
     "mocha": "^3.2.0",
     "snazzy": "^5.0.0",
     "standard": "^8.6.0"

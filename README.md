@@ -13,6 +13,7 @@
 > Scaffold out a modest node module
 
 This is the generator I use for my modules. It uses [JavaScript Standard Style](https://github.com/feross/standard) for linting, [Mocha](http://mochajs.org/) as a test framework and [Chai](http://chaijs.com/) as a assertion library.
+The [chokidar cli](https://github.com/kimmobrunfeldt/chokidar-cli) is used to watch for changes.
 
 ## Table of Contents
 

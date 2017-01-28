@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "<%= moduleDescription %>",
   "license": "MIT",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
@@ -15,13 +16,17 @@
     "url": "<%= humanizedWebsite %>"
   },
   <% if (cli) { %>
-  "bin": "cli.js",
+  "bin": [
+    "<%= moduleName %>": "cli.js"
+  ],
   <% } %>
   "scripts": {
-  	"lint": "standard --verbose | snazzy",
-    "lint:fix": "standard --fix --verbose | snazzy",
-    "test": "standard && mocha",
-    "watch": "chokidar '**/*' -c 'npm test'"
+    "start": "npm run dev",
+    "dev": "npm test -- -w",
+  	"lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "pretest": "npm run lint:fix",
+    "test": "mocha"
   },
   "keywords": [
   <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
@@ -30,9 +35,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
-    "chokidar-cli": "^1.2.0",
     "mocha": "^3.2.0",
-    "snazzy": "^5.0.0",
     "standard": "^8.6.0"
   }
 }

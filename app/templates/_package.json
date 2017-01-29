@@ -15,11 +15,7 @@
     "email": "<%= email %>",
     "url": "<%= humanizedWebsite %>"
   },
-  <% if (cli) { %>
-  "bin": [
-    "<%= moduleName %>": "cli.js"
-  ],
-  <% } %>
+  <% if (cli) { %>"bin": "cli.js",<% } %>
   "scripts": {
     "start": "npm run dev",
     "dev": "npm test -- -w",

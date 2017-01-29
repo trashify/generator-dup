@@ -1,6 +1,6 @@
 {
   "name": "generator-dup",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Scaffold out a modest node module",
   "homepage": "https://github.com/tiaanduplessis/generator-dup",
   "main": "app/index.js",
@@ -35,11 +35,11 @@
     "humanize-url": "^1.0.1",
     "normalize-url": "^1.8.0",
     "underscore.string": "^3.3.4",
-    "yeoman-generator": "^1.0.0",
+    "yeoman-generator": "1.0.1",
     "yosay": "^1.2.1"
   },
   "devDependencies": {
-    "snazzy": "^5.0.0",
+    "snazzy": "^6.0.0",
     "standard": "^8.6.0"
   },
   "standard": {

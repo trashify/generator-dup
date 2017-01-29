@@ -14,12 +14,10 @@
     "name": "<%= name %>",
     "email": "<%= email %>",
     "url": "<%= humanizedWebsite %>"
-  },
-  <% if (cli) { %>
+  },  <% if (cli) { %>
   "bin": [
     "<%= moduleName %>": "cli.js"
-  ],
-  <% } %>
+  ],<% } %>
   "scripts": {
     "start": "npm run dev",
     "dev": "npm test -- -w",
@@ -29,7 +27,7 @@
     "test": "mocha"
   },
   "keywords": [
-  <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
+  <% for(let i= 0; i< keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
   "<%= moduleName %>"
   ],
   "dependencies": {},

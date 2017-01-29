@@ -1,22 +1,46 @@
-# <%= repoName %> 
-[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-[![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= repoName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= repoName %>)
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+<h1 align="center"><%= repoName %></h1>
+<div align="center">
+  <strong><%= moduleDescription %></strong>
+</div>
+<br>
+<div align="center">
+    <a href="https://npmjs.org/package/<%= moduleName %>">
+      <img src="https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square" alt="NPM version" />
+    </a>
+    <a href="https://npmjs.org/package/<%= moduleName %>">
+    <img src="https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square" alt="Downloads" />
+    </a>
+    <a href="https://github.com/feross/standard">
+      <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
+    </a>
+    <a href="https://travis-ci.org/<%= githubUsername %>/<%= repoName %>">
+      <img src="https://img.shields.io/travis/<%= githubUsername %>/<%= repoName %>/master.svg?style=flat-square" alt="Travis build" />
+    </a>
+    <a href="https://github.com/RichardLitt/standard-readme)">
+      <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme" />
+    </a>
+    <a href="https://badge.fury.io/gh/<%= githubUsername %>%2F<%= repoName %>">
+      <img src="https://badge.fury.io/gh/<%= githubUsername %>%2F<%= repoName %>.svg?style=flat-square" alt="GitHub version" />
+   </a>
+</div>
+<br>
+<div align="center">
+  Built with ❤︎ by <a href="<%= humanizedWebsite %>">Tiaan du Plessis</a> and <a href="https://github.com/<%= githubUsername %>/<%= repoName %>/graphs/contributors">contributors</a>
+</div>
 
-TODO: Put more badges here.
+<h2>Table of Contents</h2>
+<details>
+  <summary>Table of Contents</summary>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#install">Install</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#api">API</a></li><% if (cli) { %>
+  <li><a href="#cli">CLI</a></li><% } %>
+  <li><a href="#contribute">Contribute</a></li>
+  <li><a href="#license">License</a></li>
+</details>
 
-> <%= moduleDescription %>
-
-TODO: Fill out this long description.
-
-## Table of Contents
-
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-<% if (cli) { %>- [CLI](#cli)<% } %>
-- [Contribute](#contribute)
-- [License](#license)
+## Features
 
 
 ## Install
@@ -54,4 +78,4 @@ Small note: If editing the README, please conform to the [standard-readme](https
 
 ## License
 
-Created with ♥ by [<%= name %>](<%= website %>). Licensed under the MIT License.
+Licensed under the MIT License.

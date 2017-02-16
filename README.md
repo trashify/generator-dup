@@ -3,7 +3,7 @@
 </div>
 <br>
 <div align="center">
-  <strong>caffold out a modest node module</strong>
+  <strong>Scaffold out a modest node module</strong>
 </div>
 <br>
 <div align="center">

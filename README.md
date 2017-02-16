@@ -45,8 +45,16 @@ This is a generator I use for my modules. It uses [JavaScript Standard Style](ht
 
 ## Install
 
+Make sure `yeoman` is installed:
+
 ```sh
-$ npm install --g yo generator-dup
+$ npm install -g yo
+```
+
+Then install the generator
+
+```sh
+$ npm install -g generator-dup
 ```
 
 ## Usage

@@ -22,6 +22,9 @@
    <a href="https://greenkeeper.io/">
       <img src="https://badges.greenkeeper.io/tiaanduplessis/generator-dup.svg?style=flat-square" alt="Greenkeeper" />
    </a>
+   <a href="http://packagequality.com/#?package=generator-dup">
+    <img src="http://packagequality.com/shield/generator-dup.svg" alt="Package quality"/>
+  </a>
 </div>
 <br>
 <div align="center">
@@ -41,7 +44,7 @@
 
 ## Introduction
 
-This is a generator I use for my modules. It uses [JavaScript Standard Style](https://github.com/feross/standard) for linting, [Mocha](http://mochajs.org/) as a test framework and [Chai](http://chaijs.com/) as a assertion library.
+This is a generator I use for my modules. It uses [JavaScript Standard Style](https://github.com/feross/standard) for linting, [Jest](https://facebook.github.io/jest/) as a test platform and [Husky](https://github.com/typicode/husky) for easy Git Hooks.
 
 ## Install
 
@@ -59,15 +62,18 @@ $ npm install -g generator-dup
 
 ## Usage
 
-<div align="center">
-  <img src="media/demo.gif" alt="demo">
-</div>
-
 With [yo](https://github.com/yeoman/yo):
 
 ```sh
 $ yo dup
 ```
+
+This will scaffold out:
+
+<div align="center">
+  <img src="media/result.png" alt="demo">
+</div>
+
 
 ## Contribute
 

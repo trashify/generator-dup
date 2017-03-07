@@ -22,6 +22,9 @@
     <a href="https://badge.fury.io/gh/<%= githubUsername %>%2F<%= repoName %>">
       <img src="https://badge.fury.io/gh/<%= githubUsername %>%2F<%= repoName %>.svg?style=flat-square" alt="GitHub version" />
    </a>
+   <a href="http://packagequality.com/#?package=<%= moduleName %>">
+    <img src="http://packagequality.com/shield/<%= moduleName %>.svg" alt="Package quality"/>
+  </a>
 </div>
 <br>
 <div align="center">
@@ -45,6 +48,8 @@
 ```sh
 $ npm install --save <%= moduleName %>
 ```
+
+Or
 
 ```sh
 $ yarn add <%= moduleName %>

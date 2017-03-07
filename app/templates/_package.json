@@ -15,14 +15,16 @@
     "email": "<%= email %>",
     "url": "<%= humanizedWebsite %>"
   },
-  <% if (cli) { %>"bin": "cli.js",<% } %>
+  <% if (cli) { %>"bin": {"<%= moduleName %>": "cli.js"},<% } %>
   "scripts": {
     "start": "npm run dev",
-    "dev": "npm test -- -w",
-  	"lint": "standard --verbose",
-    "lint:fix": "standard --fix --verbose",
     "pretest": "npm run lint:fix",
-    "test": "mocha"
+    "test": "jest --env=node",
+    "test:watch": "npm test -- --watch",
+    "coverage": "npm test -- --coverage",
+    "lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "precommit": "npm test"
   },
   "keywords": [
   <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
@@ -30,8 +32,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "standard": "^8.6.0"
+    "husky": "^0.13.2",
+    "jest": "^19.0.2",
+    "standard": "^9.0.0"
   }
 }

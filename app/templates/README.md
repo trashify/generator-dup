@@ -79,7 +79,7 @@ $ yarn add <%= moduleName %>
 ## Usage
 
 ```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
+const <%= camelModuleName %> = require('<%= moduleName %>')
 ```
 
 ## API

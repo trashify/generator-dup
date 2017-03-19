@@ -19,16 +19,34 @@
     <a href="https://badge.fury.io/gh/tiaanduplessis%2Fgenerator-dup">
       <img src="https://badge.fury.io/gh/tiaanduplessis%2Fgenerator-dup.svg?style=flat-square" alt="GitHub version" />
    </a>
-   <a href="https://greenkeeper.io/">
-      <img src="https://badges.greenkeeper.io/tiaanduplessis/generator-dup.svg?style=flat-square" alt="Greenkeeper" />
-   </a>
-   <a href="http://packagequality.com/#?package=generator-dup">
-    <img src="http://packagequality.com/shield/generator-dup.svg" alt="Package quality"/>
+     <a href="https://dependencyci.com/github/tiaanduplessis/generator-dup">
+    <img src="https://dependencyci.com/github/tiaanduplessis/generator-dup/badge?style=flat-square" alt="Dependency CI" />
+  </a>
+  <a href="https://github.com/tiaanduplessis/generator-dup/blob/master/other/LICENSE">
+    <img src="https://img.shields.io/npm/l/generator-dup.svg?style=flat-square" alt="License" />
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
+  </a>
+  <a href="https://www.paypal.me/tiaanduplessis/1">
+    <img src="https://img.shields.io/badge/$-support-green.svg?style=flat-square" alt="Donate" />
   </a>
 </div>
 <br>
 <div align="center">
-  Built with ❤︎ by <a href="http://tiaanduplessis.co.za">Tiaan du Plessis</a>
+  <a href="https://github.com/tiaanduplessis/generator-dup/watchers">
+    <img src="https://img.shields.io/github/watchers/tiaanduplessis/generator-dup.svg?style=social" alt="Github Watch Badge" />
+  </a>
+  <a href="https://github.com/tiaanduplessis/generator-dup/stargazers">
+    <img src="https://img.shields.io/github/stars/tiaanduplessis/generator-dup.svg?style=social" alt="Github Star Badge" />
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=Check%20out%20generator-dup!%20https://github.com/tiaanduplessis/generator-dup%20%F0%9F%91%8D">
+    <img src="https://img.shields.io/twitter/url/https/github.com/tiaanduplessis/generator-dup.svg?style=social" alt="Tweet" />
+  </a>
+</div>
+<br>
+<div align="center">
+  Built with ❤︎ by <a href="http://tiaanduplessis.co.za">Tiaan</a> and <a href="https://github.com/tiaanduplessis/generator-dup/graphs/contributors">contributors</a>
 </div>
 
 <h2>Table of Contents</h2>
@@ -37,7 +55,6 @@
   <li><a href="#introduction">Introduction</a></li>
   <li><a href="#install">Install</a></li>
   <li><a href="#usage">Usage</a></li>
-  <li><a href="#oss">OSS</a></li>
   <li><a href="#contribute">Contribute</a></li>
   <li><a href="#license">License</a></li>
 </details>

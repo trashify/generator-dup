@@ -4,29 +4,6 @@
 </div>
 <br>
 <div align="center">
-    <a href="https://npmjs.org/package/<%= moduleName %>">
-      <img src="https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square" alt="NPM version" />
-    </a>
-    <a href="https://npmjs.org/package/<%= moduleName %>">
-    <img src="https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square" alt="Downloads" />
-    </a>
-    <a href="https://github.com/feross/standard">
-      <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
-    </a>
-    <a href="https://travis-ci.org/<%= githubUsername %>/<%= repoName %>">
-      <img src="https://img.shields.io/travis/<%= githubUsername %>/<%= repoName %>/master.svg?style=flat-square" alt="Travis Build" />
-    </a>
-    <a href="https://github.com/RichardLitt/standard-readme)">
-      <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme" />
-    </a>
-    <a href="https://badge.fury.io/gh/<%= githubUsername %>%2F<%= repoName %>">
-      <img src="https://badge.fury.io/gh/<%= githubUsername %>%2F<%= repoName %>.svg?style=flat-square" alt="GitHub version" />
-   </a>
-   <a href="http://packagequality.com/#?package=<%= moduleName %>">
-    <img src="http://packagequality.com/shield/<%= moduleName %>.svg" alt="Package quality"/>
-  </a>
-</div>
-<div align="center">
   <a href="https://npmjs.org/package/<%= moduleName %>">
     <img src="https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square" alt="Package version" />
   </a>

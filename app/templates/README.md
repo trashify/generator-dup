@@ -25,7 +25,7 @@
   <a href="https://dependencyci.com/github/<%= githubUsername %>/<%= moduleName %>">
     <img src="https://dependencyci.com/github/<%= githubUsername %>/<%= moduleName %>/badge?style=flat-square" alt="Dependency CI" />
   </a>
-  <a href="https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/LICENSE">
+  <a href="https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square" alt="License" />
   </a>
   <a href="http://makeapullrequest.com">
@@ -55,6 +55,7 @@
 <h2>Table of Contents</h2>
 <details>
   <summary>Table of Contents</summary>
+  <li><a href="#about">About</a></li>
   <li><a href="#install">Install</a></li>
   <li><a href="#usage">Usage</a></li>
   <li><a href="#api">API</a></li>
@@ -63,16 +64,15 @@
   <li><a href="#license">License</a></li>
 </details>
 
+## About
+
+<%= moduleDescription %>
 
 ## Install
 
 ```sh
 $ npm install --save <%= moduleName %>
-```
-
-Or
-
-```sh
+# OR
 $ yarn add <%= moduleName %>
 ```
 
@@ -90,6 +90,8 @@ const <%= camelModuleName %> = require('<%= moduleName %>')
 
 ```sh
 $ npm install --global <%= moduleName %>
+# OR
+$ yarn global add <%= moduleName %>
 ```
 <% } %>
 

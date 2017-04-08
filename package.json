@@ -40,8 +40,8 @@
     "yosay": "^2.0.0"
   },
   "devDependencies": {
-    "snazzy": "^6.0.0",
-    "standard": "^9.0.0"
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.1"
   },
   "standard": {
     "ignore": [

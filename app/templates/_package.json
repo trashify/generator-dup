@@ -9,7 +9,10 @@
     "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
   "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>",
-  "bugs": "https://github.com/<%= githubUsername %>/<%= moduleName %>/issues",
+  "bugs": {
+    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>/issues",
+    "email": "<%= email %>"
+  },
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>",
@@ -27,7 +30,8 @@
     "precommit": "npm test"
   },
   "keywords": [
-  <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",<% } %>
+  <% for(var i=0; i<keywords.length; i++) {%>"<%= keywords[i] %>",
+  <% } %>
   "<%= moduleName %>"
   ],
   "dependencies": {},

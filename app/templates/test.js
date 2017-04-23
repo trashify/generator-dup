@@ -1,6 +1,6 @@
 /* eslint-env jest */
 'use strict'
 
-test('passing test', () => {
+test('<%= moduleName %>', () => {
   expect(true).toBe(true)
 })
